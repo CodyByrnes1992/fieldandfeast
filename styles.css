@@ -14,6 +14,8 @@
     --linen: #F8F4EC;
     --dark-charcoal: #2B2B2B;
     --soft-white: #FAF9F6;
+    /* */
+    --font: Playfair Display;
 }
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
@@ -123,10 +125,13 @@ menu,
 nav,
 section {
     display: block;
+    
 }
 
 body {
     line-height: 1;
+    font-family: var(--font);
+
 }
 
 ol,
