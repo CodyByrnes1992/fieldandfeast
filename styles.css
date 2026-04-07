@@ -128,7 +128,7 @@ body {
     line-height: 1;
     font-family: var(--font);
     margin: 0 auto;
-
+    text-align: center;
 }
 
 ol,
@@ -164,5 +164,6 @@ header p{
     font-style: italic;
 }
 h1{
-    font-size: 2rem;
+    font-size: 2em;
+    font-weight: bold;
 }
