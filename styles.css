@@ -162,8 +162,21 @@ header{
 }
 header p{
     font-style: italic;
+    padding: 10px;
 }
+nav{
+    background-color: var(--champagne-gold);
+}
+nav a {
+    display: flex;
+    color: var(--dark-charcoal);
+    font-weight: bold;
+    text-decoration: none;
+    justify-content: center;
+}
+
 h1{
     font-size: 2em;
     font-weight: bold;
+    padding: 10px;
 }
