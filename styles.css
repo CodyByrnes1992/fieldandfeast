@@ -1,9 +1,5 @@
 /*CSS by Cody Byrnes */
-*{
-    margin: 0;
-    padding: 0;
-    
-}
+
 /*IMPORTED FONTS */
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 /*ROOT Variables*/
@@ -131,6 +127,7 @@ section {
 body {
     line-height: 1;
     font-family: var(--font);
+    margin: 0 auto;
 
 }
 
@@ -155,4 +152,17 @@ q:after {
 table {
     border-collapse: collapse;
     border-spacing: 0;
+}
+
+
+
+header{
+    background-color: var(--midnight-blue);
+    color: var(--soft-white);
+}
+header p{
+    font-style: italic;
+}
+h1{
+    font-size: 2rem;
 }
