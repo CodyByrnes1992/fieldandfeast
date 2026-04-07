@@ -166,13 +166,17 @@ header p{
 }
 nav{
     background-color: var(--champagne-gold);
+    padding: 10px;
 }
 nav a {
-    display: flex;
     color: var(--dark-charcoal);
     font-weight: bold;
     text-decoration: none;
+}
+nav ul {
+    display: flex;
     justify-content: center;
+    gap: 30px;
 }
 
 h1{
