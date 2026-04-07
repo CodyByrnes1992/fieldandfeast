@@ -180,7 +180,12 @@ nav ul {
 }
 
 h1{
-    font-size: 2em;
+    font-size: 40px;
     font-weight: bold;
     padding: 10px;
+}
+
+h2{
+    font-size: 30px;
+    color: var(--midnight-blue);
 }
