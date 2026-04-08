@@ -129,6 +129,7 @@ body {
     font-family: var(--font);
     margin: 0 auto;
     text-align: center;
+    
 }
 
 ol,
@@ -215,4 +216,24 @@ input{
 footer{
     background-color: var(--midnight-blue);
     color: var(--linen);
+}
+/*Breakpoints */
+/*Medium 600px*/
+@media (min-width: 600px){
+    body{
+        min-width: 600px;
+    }
+}
+
+/*Large 900px*/
+@media (min-width: 900px) {
+    body{
+        min-width: 900px;
+    }
+}
+/*XL 1200px*/
+@media (min-width: 1200px) {
+    body {
+        min-width: 1200px;
+    }
 }
