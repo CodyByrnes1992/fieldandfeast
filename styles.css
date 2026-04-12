@@ -210,7 +210,12 @@ h3{
     color: var(--soft-white);
     border-radius: 20px;
     padding: 20px;
-    text-align: left;
+}
+
+#offerings{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
 }
 section ul{
     list-style-type: disc;
