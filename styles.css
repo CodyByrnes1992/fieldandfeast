@@ -163,6 +163,7 @@ header{
 header p{
     font-style: italic;
     padding: 10px;
+    text-align: center;
 }
 nav{
     background-color: var(--champagne-gold);
@@ -188,14 +189,20 @@ h1{
 h2{
     font-size: 30px;
     color: var(--midnight-blue);
-    padding: 20px;
-  
+    padding: 10px;
+    text-align: left;
+    margin: 20px 70px;
 }
 h3{
     font-size: 24px;
     font-weight: bold;
 }
-
+#about p{
+    text-align: left;
+    margin-left: 80px;
+    
+    
+}
 #offerings section{
     background-color: var(--olive-green);
     color: var(--soft-white);
