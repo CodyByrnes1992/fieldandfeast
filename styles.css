@@ -18,7 +18,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-
+/* CSS RESET */
 html,
 body,
 div,
@@ -156,7 +156,6 @@ table {
 }
 
 
-
 header{
     background-color: var(--midnight-blue);
     color: var(--soft-white);
@@ -216,7 +215,16 @@ input{
     height: 35px;
     cursor: pointer;
 }
-
+#gallery section{
+    
+    width: 200px;
+    font-style: italic;
+    background-color: var(--linen);
+    border-radius: 20px;
+    box-shadow: 0 1px 4px 0 var(--dark-charcoal);
+    padding: 10px;
+    text-align: center;
+}
 footer{
     background-color: var(--midnight-blue);
     color: var(--linen);
