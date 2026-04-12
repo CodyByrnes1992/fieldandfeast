@@ -216,7 +216,8 @@ input{
     cursor: pointer;
 }
 #gallery section{
-    
+    display: flex;
+    flex-direction: column;
     width: 200px;
     font-style: italic;
     background-color: var(--linen);
@@ -225,6 +226,7 @@ input{
     padding: 10px;
     text-align: center;
 }
+
 footer{
     background-color: var(--midnight-blue);
     color: var(--linen);
