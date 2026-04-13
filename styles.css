@@ -230,7 +230,7 @@ input{
     color: var(--linen);
     padding: 10px;
     border-radius: 10px;
-    width: 600px;
+    width: 100%;
     height: 35px;
 
     cursor: pointer;
@@ -239,6 +239,8 @@ input{
 }
 img{
     border-radius: 20px;
+    max-width: 100%;
+    height: auto;
 }
 .gallery {
     display: flex;
