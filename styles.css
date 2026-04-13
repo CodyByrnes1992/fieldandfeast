@@ -259,6 +259,10 @@ footer {
         min-width: 600px;
     }
 
+    #offerings {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
     
 }
 
@@ -266,6 +270,10 @@ footer {
 @media (min-width: 900px) {
     body{
         min-width: 900px;
+    }
+    #offerings{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
 }
 /*XL 1200px*/
