@@ -233,9 +233,15 @@ input{
     color: var(--linen);
     padding: 10px;
     border-radius: 10px;
-    width: 400px;
+    width: 600px;
     height: 35px;
+
     cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+}
+img{
+    border-radius: 20px;
 }
 #gallery {
     display: flex;
@@ -244,11 +250,11 @@ input{
     
 }
 #gallery section{
-    
+    width: 600px;
     font-style: italic;
     background-color: var(--linen);
     border-radius: 20px;
-    box-shadow: 0 1px 4px 0 var(--dark-charcoal);
+    box-shadow: 0 0 4px 0 var(--dark-charcoal);
     padding: 10px;
     text-align: center;
 }
@@ -280,6 +286,9 @@ footer a{
     #gallery {
         display: flex;
         flex-direction: row;
+        justify-content: center;
+        padding-bottom: 20px;
+        padding-top: 10px;
     }
 }
 
@@ -295,6 +304,7 @@ footer a{
     #gallery {
         display: flex;
         flex-direction: row;
+        justify-content: center;
     }
 }
 /*XL 1200px*/
@@ -309,5 +319,12 @@ footer a{
      #gallery{
         display: flex;
         flex-direction: row;
+        justify-content: center;
+        padding-bottom: 20px;
+        padding-top: 10px;
+     }
+     input{
+        
+        width: 1050px;
      }
 }
