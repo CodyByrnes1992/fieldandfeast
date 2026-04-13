@@ -240,6 +240,8 @@ input{
 #gallery {
     display: flex;
     flex-direction: column;
+    gap: 20px;
+    
 }
 #gallery section{
     
@@ -275,7 +277,10 @@ footer a{
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-    
+    #gallery {
+        display: flex;
+        flex-direction: row;
+    }
 }
 
 /*Large 900px*/
@@ -286,6 +291,10 @@ footer a{
     #offerings{
         display: grid;
         grid-template-columns: 1fr 1fr;
+    }
+    #gallery {
+        display: flex;
+        flex-direction: row;
     }
 }
 /*XL 1200px*/
@@ -299,6 +308,6 @@ footer a{
      }
      #gallery{
         display: flex;
-        
+        flex-direction: row;
      }
 }
