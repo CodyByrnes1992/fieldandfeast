@@ -256,6 +256,13 @@ footer {
     color: var(--linen);
     text-align: center;
 }
+footer p{
+    padding: 5px;
+}
+footer a{
+    color: var(--champagne-gold);
+    
+}
 
 /*Breakpoints */
 /*Medium 600px*/
