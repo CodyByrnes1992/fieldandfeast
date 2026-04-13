@@ -185,9 +185,7 @@ main{
     margin: 20px 60px;
 }
 p{
-    
     line-height: 1.5;
-    
 }
 h1{
     font-size: 40px;
@@ -218,8 +216,11 @@ h3{
 
 #offerings{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 20px;
+}
+#offerings ul{
+    text-indent: 10px;
 }
 section ul{
     list-style-type: disc;
@@ -257,6 +258,8 @@ footer {
     body{
         min-width: 600px;
     }
+
+    
 }
 
 /*Large 900px*/
@@ -270,4 +273,8 @@ footer {
     body {
         min-width: 1200px;
     }
+     #offerings {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+     }
 }
