@@ -240,16 +240,15 @@ input{
 img{
     border-radius: 20px;
     max-width: 100%;
-    height: auto;
 }
-.gallery {
+#gallery {
     display: flex;
     flex-direction: column;
     gap: 20px;
     
 }
-#gallery section{
-    width: 600px;
+#gallery figure{
+    
     font-style: italic;
     background-color: var(--linen);
     border-radius: 20px;
@@ -282,7 +281,7 @@ footer a{
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-    .gallery {
+    #gallery {
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -300,7 +299,7 @@ footer a{
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-    .gallery {
+    #gallery {
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -315,15 +314,12 @@ footer a{
         display: grid;
         grid-template-columns: 1fr 1fr;
      }
-     .gallery{
+     #gallery{
         display: flex;
         flex-direction: row;
         justify-content: center;
         padding-bottom: 20px;
         padding-top: 10px;
      }
-     input{
-        
-        width: 1050px;
-     }
+     
 }
